@@ -12,7 +12,7 @@ export class CurrentTrainingComponent implements OnInit {
   onStop(){
     clearInterval(this.timer)
   }
-
+// 
   constructor() {}
 
   ngOnInit(): void {
